@@ -107,14 +107,14 @@
   <img src="logomuma.png" alt="" style="max-width: 100%;">
 </div>
       <div class="box">
-        <h2 class="titlep">PLANOS INTERACTIVOS</h2>
-        <div class="button-container">
-          <a href="plantabaja.html"><button class="button">PLANTA BAJA</button></a>
-          <a href="plantaalta.html"><button class="button">PLANTA ALTA</button></a>
-        </div>
-      </div>
-    </div>
-  <style>
+  <h2 class="titlep">PLANOS INTERACTIVOS</h2>
+  <div class="button-container">
+    <a href="plantabaja.html"><button class="button">PLANTA BAJA</button></a>
+    <a href="plantaalta.html"><button class="button">PLANTA ALTA</button></a>
+  </div>
+</div>
+
+<style>
   .footer {
     background-color: #333;
     color: white;
@@ -127,13 +127,48 @@
       font-size: 14px;
     }
   }
+
+  .centered-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #333;
+  }
+
+  .questions__padding {
+    margin-bottom: 20px;
+  }
+
+  .box {
+    margin-bottom:100px;
+  }
 </style>
 
-<footer class="footer">
+<div class="centered-container">
+  <article class="questions__padding">
+    <div class="questions__answer">
+      <h3 class="questions__title" style="font-size: 30px; text-align: center; color: white;">
+        DIRECCION Y UBICACIÓN DEL MUSEO
+      </h3>
+      <span class="questions__arrow"></span>
+      <p class="questions__show">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15021.332250534553!2d-98.98722471989747!3d19.740999076126894!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1929a7991e2f5%3A0x90072b96dd4e864c!2sMuseo%20Militar%20de%20Aviaci%C3%B3n!5e0!3m2!1ses!2smx!4v1683217695339!5m2!1ses!2smx"
+          width="930" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </p>
+    </div>
+  </article>
+</div>
+
+    <footer class="footer">
   <p class="testu">Al presionar alguno de los botones que se llaman planta alta y baja podrás visualizar unos planos en los cuales encontrarás todo lo que expone el museo en cada una de sus 12 salas y 4 galerías. Así podrás conocer la historia de la Aviación Mexicana, así como sus armamentos y aeronaves que se encuentran expuestas en el MUMA.</p>
 </footer>
 
-                </article>
+  </article>
+</div>
+
+
+
             </section>
 </body>
 </html>
