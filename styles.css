@@ -17,20 +17,17 @@ body{
 
 <style>
   .footer {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    background-color: #333;
-    color: white;
-    padding: 20px;
     text-align: center;
+    padding: 20px;
   }
 
-  .main-content {
-    min-height: calc(100vh - 160px); /* Resta el alto del footer y la caja */
+  @media (max-width: 768px) {
+    .footer {
+      font-size: 16px;
+    }
   }
 </style>
+
 }
 
 
